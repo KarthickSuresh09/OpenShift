@@ -1,0 +1,25 @@
+OpenShift is a Kubernetes-based container platform developed by Red Hat. 
+It provides developers and IT operations teams with a set of tools to build, deploy, manage, and scale applications in containers.
+
+Built on Kubernetes:
+OpenShift uses Kubernetes under the hood but adds developer and operational tools, automation, and built-in security features to simplify the user experience.
+
+PaaS Capabilities:
+It's often described as a Platform as a Service (PaaS) because it provides infrastructure, application runtimes, and CI/CD pipelines out of the box.
+
+Developer-Focused:
+Developers can deploy code directly using Git, Docker images, or source-to-image (S2I), which converts code into a runnable image.
+
+Security and Compliance:
+OpenShift enforces strict security policies by default, such as not allowing containers to run as root, which makes it more secure than vanilla Kubernetes setups.
+
+Components and Tools:
+OpenShift Container Platform (OCP): The full enterprise version.
+OKD (Origin Community Distribution): The open-source upstream version.
+OpenShift CLI (oc) and Web Console: Tools to manage clusters and workloads.
+Integrated CI/CD, monitoring (via Prometheus, Grafana), and logging (via Kibana, Elasticsearch).
+
+Use Cases:
+Running microservices and cloud-native applications
+Automating deployments and managing complex application lifecycles
+Enabling DevOps practices through integrated pipelines and observability tools
